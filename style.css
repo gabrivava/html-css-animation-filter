@@ -113,7 +113,7 @@
     width: 500px;
 }
 .ex-10-icon {
-    animation: ruota 1s infinite;
+    animation: ruota 1s infinite linear;
 }
 @keyframes ruota{
     0% {
@@ -138,7 +138,7 @@
 }
 
 .ex-13-top-white {
-    animation: ex-13-top-white-rotate 3s infinite;
+    animation: ex-13-top-white-rotate 3s infinite linear;
 }
 @keyframes ex-13-top-white-rotate{
     0% {
@@ -164,7 +164,7 @@
 }
 
 .ex-13-bottom-white {
-    animation: ex-13-bottom-white-rotate 3s infinite;
+    animation: ex-13-bottom-white-rotate 3s infinite linear;
 }
 @keyframes ex-13-bottom-white-rotate{
     0% {
